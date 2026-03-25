@@ -20,7 +20,7 @@ const fragrances: Fragrance[] = [
     family: 'Floral · Aldehydic',
     name: 'Chanel',
     available: true,
-    imageStyle: { transform: 'scale(1.1)', transformOrigin: 'top center', objectFit: 'contain' },
+    imageStyle: { transform: 'scale(1.8)', transformOrigin: 'center', objectFit: 'contain' },
     price: 2500,
   },
   {
@@ -29,7 +29,7 @@ const fragrances: Fragrance[] = [
     family: 'Fruity · Woody',
     name: 'Aventus',
     available: true,
-    imageStyle: { transform: 'scale(1.5)', objectFit: 'contain' },
+    imageStyle: { transform: 'scale(1.8)', transformOrigin: 'center', objectFit: 'contain' },
     price: 2500,
   },
   {
