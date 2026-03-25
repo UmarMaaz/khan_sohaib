@@ -295,12 +295,6 @@ nav.scrolled {
   transform: scale(1.6);
 }
 
-@media (max-width: 768px) {
-  .hero-bottle-wrap { margin-top: 7rem; }
-  .bottle-img-wrap { width: 160px; height: 220px; }
-  .bottle-img-wrap img { transform: scale(1.1); }
-}
-
 /* SHIMMER SWEEP */
 .bottle-shimmer {
   position: absolute; inset: 0; z-index: 3;
@@ -847,10 +841,12 @@ footer {
   .nav-links { display: none; }
   .nav-icons { display: flex; gap: 1rem; align-items: center; margin-right: 1rem; }
   .hamburger { display: flex; order: 3; }
-  .hero-content { grid-template-columns: 1fr; padding: 0 1.5rem; text-align: center; gap: 3rem; }
+  .hero-content { grid-template-columns: 1fr; padding: 6rem 1.5rem 0; text-align: center; gap: 2rem; }
   .hero-text { order: 2; }
   .hero-btns { justify-content: center; }
-  .hero-bottle-wrap { order: 1; }
+  .hero-bottle-wrap { order: 1; margin: 0 auto; display: flex; justify-content: center; width: 100%; }
+  .bottle-img-wrap { width: 140px; height: 200px; }
+  .bottle-img-wrap img { transform: scale(1.0); }
   section { padding: 5rem 1.5rem; }
   .story-grid { grid-template-columns: 1fr; gap: 3rem; }
   .collection-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
