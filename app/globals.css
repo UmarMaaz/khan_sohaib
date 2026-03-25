@@ -296,9 +296,9 @@ nav.scrolled {
 }
 
 @media (max-width: 768px) {
-  .hero-bottle-wrap { margin-top: 5rem; }
-  .bottle-img-wrap { width: 220px; height: 300px; }
-  .bottle-img-wrap img { transform: scale(1.3); }
+  .hero-bottle-wrap { margin-top: 7rem; }
+  .bottle-img-wrap { width: 160px; height: 220px; }
+  .bottle-img-wrap img { transform: scale(1.1); }
 }
 
 /* SHIMMER SWEEP */
