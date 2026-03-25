@@ -74,7 +74,6 @@ export default function Hero() {
                   objectFit: 'contain',
                   opacity: currentImg === idx ? 1 : 0,
                   transition: 'opacity 1.5s ease-in-out',
-                  transform: 'scale(1.6)',
                 }}
               />
             ))}
