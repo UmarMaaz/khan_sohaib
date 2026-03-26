@@ -78,6 +78,18 @@ body {
 }
 @keyframes preloaderPulse { 0%, 100% { opacity: 0.4 } 50% { opacity: 1 } }
 @keyframes preloaderLine { to { width: 200px } }
+@keyframes fadeIn { to { opacity: 1 } }
+
+.preloader-text {
+  font-family: var(--serif);
+  font-size: 0.75rem;
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-top: 1rem;
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards 0.4s;
+}
 
 /* NAV */
 nav {
@@ -890,6 +902,7 @@ footer {
 
 [data-theme="light"] #preloader { background: #f8f6f1; }
 [data-theme="light"] .preloader-logo { color: #1a1a1a; }
+[data-theme="light"] .preloader-text { color: var(--gold); }
 
 [data-theme="light"] nav.scrolled {
   background: rgba(248,246,241,0.85);

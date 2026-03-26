@@ -13,6 +13,7 @@ export default function Preloader() {
     <div id="preloader" className={hidden ? 'hidden' : ''}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src="/logo.png" alt="LUMIÈRE" className="preloader-logo" style={{ height: '120px', width: 'auto' }} />
+      <p className="preloader-text">Fragrances</p>
       <div className="preloader-line"></div>
     </div>
   );
