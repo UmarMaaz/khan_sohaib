@@ -18,7 +18,7 @@ export default function CartDrawer() {
 
   const copyToClipboard = async () => {
     try {
-      await navigator.clipboard.writeText("03235921798");
+      await navigator.clipboard.writeText("03180638787");
       alert("Number copied to clipboard!");
     } catch (err) {
       console.error('Failed to copy text: ', err);
@@ -121,7 +121,7 @@ export default function CartDrawer() {
               
               <p style={{ fontSize: '0.75rem', color: 'var(--cream-dim)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.3rem' }}>Account Number</p>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: 'var(--surface)', border: '1px solid rgba(197,160,40,0.2)', padding: '0.8rem 1rem', borderRadius: '4px' }}>
-                <span className="cart-item-price" style={{ fontSize: '1.1rem', margin: 0, letterSpacing: '0.1em' }}>0323 592 1798</span>
+                <span className="cart-item-price" style={{ fontSize: '1.1rem', margin: 0, letterSpacing: '0.1em' }}>0318 063 8787</span>
                 <button onClick={copyToClipboard} style={{ background: 'none', border: 'none', color: 'var(--gold)', cursor: 'pointer', fontSize: '1.1rem' }}>
                   <i className="fa-regular fa-copy"></i>
                 </button>
