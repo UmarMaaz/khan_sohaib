@@ -91,6 +91,15 @@ body {
   animation: fadeIn 1.2s ease forwards 0.4s;
 }
 
+.footer-logo-text {
+  font-family: var(--serif);
+  font-size: 0.6rem;
+  letter-spacing: 0.4em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
 /* NAV */
 nav {
   position: fixed; top: 0; left: 0; right: 0;
@@ -952,6 +961,7 @@ footer {
 [data-theme="light"] footer { background: #f8f6f1; border-top-color: rgba(197,160,40,0.15); }
 [data-theme="light"] .footer-brand h3 { color: #1a1a1a; }
 [data-theme="light"] .footer-brand p { color: rgba(26,26,26,0.85); font-weight: 400; }
+[data-theme="light"] .footer-logo-text { color: var(--gold); }
 [data-theme="light"] .footer-col ul li { color: rgba(26,26,26,0.85); font-weight: 400; }
 [data-theme="light"] .footer-bottom p { color: rgba(26,26,26,0.6); }
 

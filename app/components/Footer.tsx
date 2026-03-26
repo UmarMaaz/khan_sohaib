@@ -7,7 +7,8 @@ export default function Footer() {
       <div className="footer-grid">
         <FadeUp className="footer-brand">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="LUMIÈRE" style={{ height: '80px', width: 'auto', marginBottom: '1.2rem' }} />
+          <img src="/logo.png" alt="LUMIÈRE" style={{ height: '80px', width: 'auto', marginBottom: '0.5rem' }} />
+          <p className="footer-logo-text">Fragrances</p>
           <p>Crafting extraordinary fragrances<br />in the pursuit of olfactory perfection<br />since 1921.</p>
           <div className="footer-social">
             <a href="https://www.instagram.com/khansohaib7695?igsh=NWM1MjRma21oZ3F1" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
