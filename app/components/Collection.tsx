@@ -20,7 +20,7 @@ const fragrances: Fragrance[] = [
     family: 'Floral · Aldehydic',
     name: 'Chanel',
     available: true,
-    imageStyle: { transform: 'scale(1.6) translateY(5px)', transformOrigin: 'top center', objectFit: 'contain' },
+    imageStyle: { transform: 'scale(1.8)', transformOrigin: 'top center', objectFit: 'contain' },
     price: 2500,
   },
   {
@@ -29,7 +29,7 @@ const fragrances: Fragrance[] = [
     family: 'Fruity · Woody',
     name: 'Aventus',
     available: true,
-    imageStyle: { transform: 'scale(1.4)', transformOrigin: 'center', objectFit: 'contain' },
+    imageStyle: { transform: 'scale(1.8)', transformOrigin: 'top center', objectFit: 'contain' },
     price: 2500,
   },
   {
@@ -67,7 +67,7 @@ export default function Collection() {
                 <img
                   src={f.img}
                   alt={f.alt}
-                  style={f.available ? (f.imageStyle || { transform: 'scale(1.4)', objectFit: 'contain' }) : { filter: 'grayscale(50%) blur(15px) brightness(0.6)', transform: 'scale(1.2)' }}
+                  style={f.available ? (f.imageStyle || { transform: 'scale(1.8)', objectFit: 'contain' }) : { filter: 'grayscale(50%) blur(15px) brightness(0.6)', transform: 'scale(1.2)' }}
                 />
                 <div className="card-overlay"></div>
               </div>
