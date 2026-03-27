@@ -176,6 +176,7 @@ nav.scrolled {
 #hero {
   position: relative;
   height: 100vh;
+  min-height: 700px;
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
 }
@@ -860,13 +861,13 @@ footer {
   nav { padding: 1.2rem 1.5rem; }
   nav.scrolled { padding: 0.8rem 1.5rem; }
   .nav-links { display: none; }
-  .nav-icons { display: flex; gap: 1rem; align-items: center; margin-right: 1rem; }
-  .hamburger { display: flex; order: 3; }
-  .hero-content { grid-template-columns: 1fr; padding: 6rem 1.5rem 0; text-align: center; gap: 2rem; }
-  .hero-text { order: 2; }
-  .hero-btns { justify-content: center; }
+  .nav-icons { display: flex; gap: 1.2rem; align-items: center; margin-right: 1.5rem; justify-content: center; }
+  .hamburger { display: flex; order: 3; align-self: center; }
+  .hero-content { grid-template-columns: 1fr; padding: 10rem 1.5rem 2rem; text-align: center; gap: 1.5rem; }
+  .hero-text { order: 2; display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+  .hero-btns { justify-content: center; margin-top: 1rem; }
   .hero-bottle-wrap { order: 1; margin: 0 auto; display: flex; justify-content: center; width: 100%; }
-  .bottle-img-wrap { width: 140px; height: 200px; }
+  .bottle-img-wrap { width: 130px; height: 180px; }
   .bottle-img-wrap img { transform: scale(1.0); }
   section { padding: 5rem 1.5rem; }
   .story-grid { grid-template-columns: 1fr; gap: 3rem; }
@@ -890,7 +891,7 @@ footer {
 @media (max-width: 480px) {
   .collection-grid { grid-template-columns: 1fr; }
   .notes-row { flex-direction: column; align-items: center; }
-  .hero-heading { font-size: 2.2rem; }
+  .hero-heading { font-size: 2rem; }
 }
 
 /* REDUCED MOTION */
