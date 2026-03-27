@@ -876,6 +876,7 @@ footer {
   .notes-grid { grid-template-columns: 1fr; max-width: 400px; }
   .footer-grid { grid-template-columns: 1fr; gap: 2.5rem; text-align: center; }
   .footer-brand { margin: 0 auto; }
+  .footer-social { justify-content: center; }
   .footer-brand p { margin: 1rem auto; padding: 0 1rem; }
   .footer-bottom { flex-direction: column; text-align: center; gap: 0.8rem; padding: 2rem 1rem; }
   .notes-grid .note-card { animation: none; }
