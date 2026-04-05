@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 
-const images = ['/image.png', '/image2.png'];
+const images = ['/image.png', '/image2.png', '/flora_tr.png', '/prime_tr.png'];
 
 export default function Hero() {
   const bottleRef = useRef<HTMLDivElement>(null);
