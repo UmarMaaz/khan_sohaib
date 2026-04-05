@@ -39,7 +39,7 @@ const fragrances: Fragrance[] = [
     name: 'Flora',
     available: true,
     imageStyle: { transform: 'scale(1.2)', transformOrigin: 'center', objectFit: 'contain' },
-    price: 2500,
+    price: 2000,
   },
   {
     img: '/prime.png',
@@ -48,7 +48,7 @@ const fragrances: Fragrance[] = [
     name: 'Prime',
     available: true,
     imageStyle: { transform: 'scale(1.2)', transformOrigin: 'center', objectFit: 'contain' },
-    price: 2500,
+    price: 2000,
   },
 ];
 
